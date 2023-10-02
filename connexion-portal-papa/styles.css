@@ -16,13 +16,13 @@ h2 {
 
 .form-box {
     background-color: #181818;
-    margin: 100px auto;
+    margin: 150px auto;
     padding: 15px 20px; 
     width: 300px;
     display: flex; 
     flex-direction: column;
     border-radius: 2px;
-    box-shadow: 20px 20px  #866e4309;
+    box-shadow: 15px 20px  #866e4309;
     
 }
 
@@ -103,7 +103,6 @@ a {
 
 #button-style:hover {
     background-color: #9079513a;
-    color: #C9CBC5;   
 }
 #button-style:hover a {
     color: #C9CBC5;   
