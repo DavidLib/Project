@@ -78,7 +78,7 @@ input::placeholder {
 }
 
 /* -----------------------------------------------------------------------
-/* Animation CHECKBOX */
+/* Bouton CHECKBOX */
 
 input[type=checkbox] { /* Permet d'oublier l'apparence par default de la checkbox */
     -webkit-appearance: none; 
