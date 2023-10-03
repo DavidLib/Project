@@ -25,8 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const correctPassword = '7253';
 
     if (email === correctEmail && enteredPassword === correctPassword) {
-
+      
+      ///////////////////////////////////////////////////////////////////////////////// 
       // Désactive le clic sur la page une fois la connexion validée (Pour ne pas cliquer sur un objet caché)
+
       formBox.classList.add('disable-click');
       document.querySelector('.mdp-oublie').classList.add('disable-click'); // Lien mot de passe oublié
       document.querySelector('.button-style').classList.add('disable-click'); // Bouton connexion
@@ -51,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
         formBox.style.boxShadow = '0px 0px 0px rgba(0, 0, 0, 0.596) inset,0px 0px  #6b593a';
         formBox.style.border = '#181818';
       });
-        // Attends la fin des transitions
+      // Attends la fin des transitions
         setTimeout(() => {
-        // Resolution de la promesse
+      // Resolution de la promesse
           resolve();
         }, 1200); // Délai
       });
