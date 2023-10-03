@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portail de connexion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Formulaire de connexion-->
+    <form class="form-box">          
+        <h2>Se connecter</h2>
+            <div class="input">
+                <input class="input-style" type="email" placeholder="Email">
+                <input class="input-style" type="password"placeholder="Mot de passe">
+                <input title="Afficher le mot de passe" type="checkbox" id="show-password" name="password">
+            </div>   
+                <div><a class="mdp-oublie" href="#">Mot de passe oublié?</a></div>
+                <div class="flex-connexion"><button type="submit" id="connexion-button" class="button-style"><a href="#">Connexion</a></button></div>
+    </form>
+    <!-- Animation CSS opacité 0 (0>1 via js)  -->
+        <div class="lds-grid" id="lds-grid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    <!-- Animation CSS visibilité hidden (hidden>visible via js)  -->
+        <div id="loading-text">Loading</div> 
+        
+    <script src="index.js"></script>
+</body>
+</html>
