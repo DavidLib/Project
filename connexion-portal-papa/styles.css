@@ -29,6 +29,7 @@ a {
   pointer-events: none;
 }
 
+/* -----------------------------------------------------------------------
 /* Styles FORMULAIRE */
 
 .form-box {
@@ -45,6 +46,7 @@ a {
     transition: opacity 0.5s ease-in-out;
 }
 
+/* -----------------------------------------------------------------------
 /* Styles INPUTS */
 
 .input {
@@ -75,6 +77,7 @@ input::placeholder {
     outline: none;
 }
 
+/* -----------------------------------------------------------------------
 /* Animation CHECKBOX */
 
 input[type=checkbox] { /* Permet d'oublier l'apparence par default de la checkbox */
@@ -103,6 +106,7 @@ input[type="checkbox"]:checked {
     outline: none;
 }
 
+/* -----------------------------------------------------------------------
 /* Lien mot de passe oublié */
 
 .mdp-oublie {
@@ -118,6 +122,7 @@ input[type="checkbox"]:checked {
     color: #676E79;
 }
 
+/* -----------------------------------------------------------------------
 /* Bouton CONNEXION */
 
 .flex-connexion {
@@ -148,6 +153,7 @@ input[type="checkbox"]:checked {
     text-shadow: 0px -1px #ffffff1f, 0 1px #000000;
 }
 
+/* -----------------------------------------------------------------------
 /* Animation GRID Loading */
 
 .lds-grid {
@@ -222,6 +228,7 @@ input[type="checkbox"]:checked {
   }
 }
 
+/* -----------------------------------------------------------------------
 /* Animation TEXTE Loading */
 
 #loading-text {
