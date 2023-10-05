@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: minmax(auto,auto) minmax(auto,auto) 1fr minmax(100px,auto) ;
+    gap: 0.5rem;
+    grid-template-areas: 
+    'header header header header'
+    'intro intro intro intro'
+    'main main main main'
+    'footer footer footer footer';
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    grid-area: header;
+}
+.nom-de-la-page {
+    grid-area: logo;
+    display: grid;
+    place-items: center;
+}
+nav {
+    font-size: 1rem;
+    grid-area: nav;
+    display: grid;
+    place-items: center;
+}
+.intro {
+    font-size: 2rem;
+    grid-area: intro;
+    display: grid;
+    place-items: center;
+}
+main {
+    grid-area: main;
+    display: grid;
+    place-items: center;
+}
+footer {
+    grid-area: footer;
+    display: grid;
+    place-items: center;
+}
+
+#connexion-grid {
+    width:300px;
+    height:300px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.item1 {
+    margin-bottom: 10px;
+}
+form {
+    width: 280px;
+    height: 245px;
+}
+.item2 {
+    margin-bottom: 5px;
+}
+.email-input {
+    width: 280px;
+    height: 40px;
+}
+.item4 {
+    margin-bottom: 5px;
+}
+.password-input {
+    width: 280px;
+    height: 40px;
+}
+.item7 {
+    margin: 20px;
+
+}
